@@ -129,7 +129,7 @@ export const FormAddEmployee = () => {
                 }}
               >
                 <Field
-                  type="text"
+                  type="name"
                   id="standard-required"
                   label="Nome"
                   fullWidth
