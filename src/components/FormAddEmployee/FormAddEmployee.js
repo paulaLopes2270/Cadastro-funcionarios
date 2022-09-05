@@ -138,10 +138,8 @@ export const FormAddEmployee = () => {
                   as={TextField}
                   disabled={formIsDisabled}
                   helperText={<ErrorMessage name="name" />}
-                  required
                 />
                 <Field
-                  required
                   id="standard-required"
                   label="CPF"
                   fullWidth
@@ -154,7 +152,6 @@ export const FormAddEmployee = () => {
                 />
                 <Field
                   type="email"
-                  required
                   id="standard-required"
                   label="E-mail"
                   fullWidth
@@ -167,7 +164,6 @@ export const FormAddEmployee = () => {
 
                 <Field
                   type="phone"
-                  required
                   id="standard-required"
                   label="Telefone"
                   style={{ flex: "1 1 45%" }}
@@ -212,7 +208,6 @@ export const FormAddEmployee = () => {
                   helperText={<ErrorMessage name="created_at" />}
                 />
                 <Field
-                  required
                   label="Salário (R$)"
                   style={{ flex: "1 1 150px " }}
                   name="salary"
