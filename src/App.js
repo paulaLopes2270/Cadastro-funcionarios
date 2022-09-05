@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+//rotas
+import Rotas from "./routes";
+
+// context
+import { EmployeeFormProvider } from "./context/EmployeeFormContext/EmployeeFormContext";
+import { EmployeeListProvider } from "./context/EmployeeListContext/EmployeeListContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <EmployeeFormProvider>
+      <EmployeeListProvider>
+        <Rotas />
+      </EmployeeListProvider>
+    </EmployeeFormProvider>
   );
 }
 
