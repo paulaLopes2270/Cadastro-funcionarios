@@ -25,6 +25,12 @@ Abra [http://localhost:3000](http://localhost:3000) Para ver em seu navegador.
 <li>
   Formik
 </li>
+<li>
+  Yup
+</li>
+<li>
+  MockAPI
+</li>
 </ul>
 
 Código comentado no Notion:  https://clammy-foxtrot-63b.notion.site/SevenINC-07e0fae064734e398da2ddeb8ad6a7d1
