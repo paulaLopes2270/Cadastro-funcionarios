@@ -172,7 +172,7 @@ export const FormAddEmployee = () => {
                   as={TextField}
                   onKeyDown={phoneInputMask}
                   disabled={formIsDisabled}
-                  helperText={<ErrorMessage name="phone" />}
+                  helperText={<ErrorMessage name="phone"  />}
                 />
                 <Field
                   style={{ flex: "1 1 45%" }}
@@ -205,7 +205,7 @@ export const FormAddEmployee = () => {
                   name="created_at"
                   as={TextField}
                   disabled={formIsDisabled}
-                  helperText={<ErrorMessage name="created_at" />}
+                  helperText={<ErrorMessage name="created_at"/>}
                 />
                 <Field
                   label="Salário (R$)"
