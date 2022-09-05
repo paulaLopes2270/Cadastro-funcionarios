@@ -138,6 +138,7 @@ export const FormAddEmployee = () => {
                   as={TextField}
                   disabled={formIsDisabled}
                   helperText={<ErrorMessage name="name" />}
+                  required
                 />
                 <Field
                   required
