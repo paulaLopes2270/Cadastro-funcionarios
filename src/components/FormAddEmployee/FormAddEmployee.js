@@ -129,7 +129,7 @@ export const FormAddEmployee = () => {
                 }}
               >
                 <Field
-                  type="name"
+                  type="text"
                   id="standard-required"
                   label="Nome"
                   fullWidth
@@ -137,6 +137,7 @@ export const FormAddEmployee = () => {
                   variant="outlined"
                   as={TextField}
                   disabled={formIsDisabled}
+                  helperText={<ErrorMessage name="name" />}
                 />
                 <Field
                   required
@@ -148,6 +149,7 @@ export const FormAddEmployee = () => {
                   onKeyUp={cpfInputMask}
                   as={TextField}
                   disabled={formIsDisabled}
+                  helperText={<ErrorMessage name="cpf" />}
                 />
                 <Field
                   type="email"
@@ -159,6 +161,7 @@ export const FormAddEmployee = () => {
                   variant="outlined"
                   as={TextField}
                   disabled={formIsDisabled}
+                  helperText={<ErrorMessage name="email" />}
                 />
 
                 <Field
@@ -172,6 +175,7 @@ export const FormAddEmployee = () => {
                   as={TextField}
                   onKeyDown={phoneInputMask}
                   disabled={formIsDisabled}
+                  helperText={<ErrorMessage name="phone" />}
                 />
                 <Field
                   style={{ flex: "1 1 45%" }}
@@ -187,6 +191,7 @@ export const FormAddEmployee = () => {
                   variant="outlined"
                   as={TextField}
                   disabled={formIsDisabled}
+                  helperText={<ErrorMessage name="birth_date" />}
                 />
 
                 <Field
@@ -203,6 +208,7 @@ export const FormAddEmployee = () => {
                   name="created_at"
                   as={TextField}
                   disabled={formIsDisabled}
+                  helperText={<ErrorMessage name="created_at" />}
                 />
                 <Field
                   required
@@ -219,6 +225,7 @@ export const FormAddEmployee = () => {
                     inputComponent: NumberFormatCustom,
                   }}
                   disabled={formIsDisabled}
+                  helperText= {<ErrorMessage name="salary"/>}
                 />
                 <Stack
                   style={{
