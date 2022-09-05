@@ -170,7 +170,7 @@ export const FormAddEmployee = () => {
                   name="phone"
                   variant="outlined"
                   as={TextField}
-                  onKeyDown={phoneInputMask}
+                  onKeyUp={phoneInputMask}
                   disabled={formIsDisabled}
                   helperText={<ErrorMessage name="phone"  />}
                 />
