@@ -39,3 +39,4 @@ Abra [http://localhost:3000](http://localhost:3000) Para ver em seu navegador.
 ![image](https://user-images.githubusercontent.com/82106630/188363034-200db6bd-cd7f-42b5-b0a7-95dbd7661b18.png)
 
 
+Código comentado no Notion:  https://clammy-foxtrot-63b.notion.site/SevenINC-07e0fae064734e398da2ddeb8ad6a7d1
